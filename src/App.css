@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+.line {
+  border: 1px solid rgb(232, 222, 222);
+}
+.menu-image {
+  background-attachment: blue;
+  height: 90px;
+  width: 90px;
+  overflow: hidden;
+  
+}
+.inner {
+ overflow: hidden;
+}
+
+
+.inner img {
+  transition: all 1.5s ease;
+}
+.inner:hover img {
+  transform: scale(1.2);
+}
+
+/* Footer */
+
+.footer-card {
+     
+  height: 400px;
+  width: 250px;
+}
+
+.card-text:hover {
+  color: rgb(8, 27, 8);
+}
+
+.card-text {
+ line-height: 1rem;
+}
+
